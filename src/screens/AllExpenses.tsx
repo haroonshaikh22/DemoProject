@@ -1,12 +1,9 @@
-import { View, Text } from 'react-native'
-import React from 'react'
+import {View, Text} from 'react-native';
+import React from 'react';
+import ExpenseOutput from '../components/expenses/ExpenseOutput';
 
 const AllExpenses = () => {
-  return (
-    <View>
-      <Text>AllExpenses</Text>
-    </View>
-  )
-}
+  return <ExpenseOutput expensesPeriod="total" />;
+};
 
-export default AllExpenses
+export default AllExpenses;
