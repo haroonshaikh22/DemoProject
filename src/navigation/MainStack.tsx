@@ -34,9 +34,6 @@ const RecentsExpenseStackNavigator = () => {
         name="RecentsExpenses"
         component={RecentsExpenses}
         options={{
-          headerLeft: () => (
-            <Pressable onPress={() => DrawerActions.openDrawer()}></Pressable>
-          ),
           headerShown: true,
         }}
       />
